@@ -1,0 +1,138 @@
+/* 总画布 */
+.all {
+    margin: 0 15%;
+    border: 5px gold groove;
+    background-image: url("./images/tjzBackground.gif");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "JetBrains Mono", serif;
+}
+
+hr {
+    background-color: orange;
+    color: orange;
+    height: 1px;
+    margin: 30px;
+}
+
+ul {
+    background-color: coral;
+    margin: 0 3em;
+}
+
+li {
+    text-indent: 0.5em;
+    color: white;
+    height: 2em;
+    line-height: 2em;
+    font-size: medium;
+    font-weight: bold;
+}
+
+h2 {
+    margin: 0 2em 1em;
+    text-align: center;
+    color: gold;
+    background-color: coral;
+    width: 5.5em;
+    height: 2em;
+    line-height: 2em;
+    font-weight: bolder;
+    border: 6px yellow outset;
+}
+
+h3 {
+    text-align: center;
+    color: coral;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.headTitle {
+    margin: 0.4em 0.3em;
+    text-indent: 2em;
+    line-height: 100px;  /* 这一句可以让文字上下居中(将行间距设置的和height一致) */
+    height: 100px;
+    background-color: coral;
+    color: white;
+    font-size: xxx-large;
+    font-weight: bolder;
+    border: 12px gold inset;
+}
+
+.footer {
+    margin: 0.4em 0.3em;
+    text-align: center;
+    height: 70px;
+    background-color: coral;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    border: 12px gold inset;
+}
+
+.catalogue {
+    float: right;  /*元素向右浮动至右定格*/
+    margin:0 1em;
+    height: 30px;
+    width: 6em;
+    line-height: 30px;
+    background-color: coral;
+    text-align: center;
+    border: 3px gold ridge;
+    border-radius: 0 10px;  /* 设置圆角边框 */
+}
+
+a {
+    color: white;
+    text-decoration: none;  /*去除超链接的下划线*/
+    font-weight: normal;
+    font-size: large;
+}
+
+/* 设置a标签的伪类选择器，鼠标悬停时字体会加粗 */
+a:hover {
+    font-weight: bolder;
+}
+
+img {
+    height: 20em;
+    margin: 0 3%;
+}
+
+video {
+    height: 20em;
+    margin: 0 3%
+}
+
+.doc {
+    margin: 0 5em;
+    text-indent: 2em;
+    text-align: justify;
+    color: gold;
+    font-size: large;
+    font-weight: bold;
+}
+
+table {
+    margin: 0 auto;
+    background-color: coral;
+    text-align: center;
+    border: 5px gold solid;
+    color: white;
+}
+
+th {
+    padding: 5px 10px;
+}
+
+td {
+    padding: 5px 10px;
+}
+
+form {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
